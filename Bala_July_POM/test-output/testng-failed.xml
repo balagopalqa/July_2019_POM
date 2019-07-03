@@ -6,12 +6,18 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.TestLayer.TestLayer">
+      <class name="com.qa.TestLayer.TestLayer2">
         <methods>
-          <include name="Logintest2"/>
+          <include name="Logintest22"/>
           <include name="initialization"/>
         </methods>
-      </class> <!-- com.qa.TestLayer.TestLayer -->
+      </class> <!-- com.qa.TestLayer.TestLayer2 -->
+      <class name="com.qa.TestLayer.TestLayer1">
+        <methods>
+          <include name="initialization"/>
+          <include name="Logintest2"/>
+        </methods>
+      </class> <!-- com.qa.TestLayer.TestLayer1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

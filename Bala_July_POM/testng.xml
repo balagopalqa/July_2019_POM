@@ -9,7 +9,9 @@
   
   
     <classes>
-      <class name="com.qa.TestLayer.TestLayer"/>
+      <class name="com.qa.TestLayer.TestLayer1"/>
+      <class name="com.qa.TestLayer.TestLayer2"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

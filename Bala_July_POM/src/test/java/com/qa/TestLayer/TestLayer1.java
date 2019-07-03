@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.qa.Baselayer.BaseLayer;
 import com.qa.Pagelayer.LoginPage;
 
-public class TestLayer extends BaseLayer{
+public class TestLayer1 extends BaseLayer{
 	LoginPage log;
 	
 	@BeforeMethod

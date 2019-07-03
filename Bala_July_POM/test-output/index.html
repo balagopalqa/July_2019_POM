@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\NEW\eclipse-workspace_oxygen_Balagopal_gitJune_2019\Bala_July_POM\testng.xml</span>
+                    <span>C:\Users\NEW\git\repository46\Bala_July_POM\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.TestLayer.TestLayer" hash-for-method="Logintest2">Logintest2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.TestLayer.TestLayer1" hash-for-method="Logintest2">Logintest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.TestLayer.TestLayer2" hash-for-method="Logintest22">Logintest22</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -116,7 +121,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.TestLayer.TestLayer" hash-for-method="Logintest">Logintest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.TestLayer.TestLayer1" hash-for-method="Logintest">Logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.TestLayer.TestLayer2" hash-for-method="Logintest12">Logintest12</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -134,7 +144,27 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.qa.TestLayer.TestLayer</span>
+              <span class="class-name">com.qa.TestLayer.TestLayer2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest22">
+                  </a> <!-- Logintest22 -->
+                  <span class="method-name">Logintest22</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.Pagelayer.LoginPage.Login2(LoginPage.java:30)
+	at com.qa.TestLayer.TestLayer2.Logintest22(TestLayer2.java:27)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.TestLayer.TestLayer1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -144,7 +174,7 @@
                   <span class="method-name">Logintest2</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at com.qa.Pagelayer.LoginPage.Login2(LoginPage.java:30)
-	at com.qa.TestLayer.TestLayer.Logintest2(TestLayer.java:27)
+	at com.qa.TestLayer.TestLayer1.Logintest2(TestLayer1.java:27)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -154,7 +184,22 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.TestLayer.TestLayer</span>
+              <span class="class-name">com.qa.TestLayer.TestLayer2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest12">
+                  </a> <!-- Logintest12 -->
+                  <span class="method-name">Logintest12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.TestLayer.TestLayer1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -169,7 +214,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\NEW\eclipse-workspace_oxygen_Balagopal_gitJune_2019\Bala_July_POM\testng.xml</span>
+            <span class="header-content">C:\Users\NEW\git\repository46\Bala_July_POM\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,7 +226,8 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.TestLayer.TestLayer&quot;/&gt;
+      &lt;class name=&quot;com.qa.TestLayer.TestLayer1&quot;/&gt;
+      &lt;class name=&quot;com.qa.TestLayer.TestLayer2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -195,7 +241,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,20 +267,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Logintest')
-data.setCell(0, 2, 'com.qa.TestLayer.TestLayer')
-data.setCell(0, 3, 861);
+data.setCell(0, 1, 'Logintest2')
+data.setCell(0, 2, 'com.qa.TestLayer.TestLayer1')
+data.setCell(0, 3, 1054);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Logintest2')
-data.setCell(1, 2, 'com.qa.TestLayer.TestLayer')
-data.setCell(1, 3, 854);
+data.setCell(1, 1, 'Logintest12')
+data.setCell(1, 2, 'com.qa.TestLayer.TestLayer2')
+data.setCell(1, 3, 985);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Logintest')
+data.setCell(2, 2, 'com.qa.TestLayer.TestLayer1')
+data.setCell(2, 3, 476);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Logintest22')
+data.setCell(3, 2, 'com.qa.TestLayer.TestLayer2')
+data.setCell(3, 3, 301);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -260,24 +314,45 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.TestLayer.TestLayer</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.TestLayer.TestLayer1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initialization</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Logintest</span>
-                <span class="method-start">9253 ms</span>
+                <span class="method-start">10550 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initialization</span>
-                <span class="method-start">10133 ms</span>
+                <span class="method-start">11045 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Logintest2</span>
-                <span class="method-start">18610 ms</span>
+                <span class="method-start">22027 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.TestLayer.TestLayer2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">24218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logintest12</span>
+                <span class="method-start">33057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">34048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Logintest22</span>
+                <span class="method-start">44003 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
