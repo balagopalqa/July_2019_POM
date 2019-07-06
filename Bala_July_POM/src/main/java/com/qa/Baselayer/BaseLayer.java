@@ -30,7 +30,7 @@ public BaseLayer() {
 	prop =new Properties();
 	
 	try {
-		FileInputStream	fis = new FileInputStream("C:\\Users\\NEW\\eclipse-workspace_oxygen_Balagopal_gitJune_2019\\Bala_July_POM\\src\\main\\java\\com\\qa\\Baselayer\\config.properties");
+		FileInputStream	fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\Baselayer\\config.properties");
 		prop.load(fis);
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
@@ -48,7 +48,7 @@ public BaseLayer() {
 
 	public static void browser(){
 			if (browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\NEW\\Desktop\\SELENIUM TOOLS\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
 			
 			driver=new ChromeDriver();
 		}

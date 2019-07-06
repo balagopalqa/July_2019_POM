@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45242" started-at="2019-07-03T11:06:46Z" finished-at="2019-07-03T11:07:31Z">
+  <suite name="Suite" duration-ms="66617" started-at="2019-07-06T12:06:50Z" finished-at="2019-07-06T12:07:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="45242" started-at="2019-07-03T11:06:46Z" finished-at="2019-07-03T11:07:31Z">
+    <test name="Test" duration-ms="66617" started-at="2019-07-06T12:06:50Z" finished-at="2019-07-06T12:07:57Z">
       <class name="com.qa.TestLayer.TestLayer1">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="10549" started-at="2019-07-03T11:06:46Z" finished-at="2019-07-03T11:06:57Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="16557" started-at="2019-07-06T12:06:50Z" finished-at="2019-07-06T12:07:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest" duration-ms="476" started-at="2019-07-03T11:06:57Z" finished-at="2019-07-03T11:06:57Z">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest" duration-ms="344" started-at="2019-07-06T12:07:07Z" finished-at="2019-07-06T12:07:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="10982" started-at="2019-07-03T11:06:57Z" finished-at="2019-07-03T11:07:08Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="13919" started-at="2019-07-06T12:07:07Z" finished-at="2019-07-06T12:07:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest2" duration-ms="1054" started-at="2019-07-03T11:07:08Z" finished-at="2019-07-03T11:07:09Z">
+        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest2" duration-ms="1173" started-at="2019-07-06T12:07:21Z" finished-at="2019-07-06T12:07:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -37,9 +37,9 @@ at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -54,7 +54,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
@@ -65,19 +65,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Logintest2 -->
       </class> <!-- com.qa.TestLayer.TestLayer1 -->
       <class name="com.qa.TestLayer.TestLayer2">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="8839" started-at="2019-07-03T11:07:10Z" finished-at="2019-07-03T11:07:19Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="14415" started-at="2019-07-06T12:07:24Z" finished-at="2019-07-06T12:07:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="Logintest12()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest12" duration-ms="985" started-at="2019-07-03T11:07:19Z" finished-at="2019-07-03T11:07:20Z">
+        <test-method status="PASS" signature="Logintest12()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest12" duration-ms="643" started-at="2019-07-06T12:07:38Z" finished-at="2019-07-06T12:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest12 -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="9955" started-at="2019-07-03T11:07:20Z" finished-at="2019-07-03T11:07:30Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="15405" started-at="2019-07-06T12:07:39Z" finished-at="2019-07-06T12:07:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="Logintest22()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest22" duration-ms="301" started-at="2019-07-03T11:07:30Z" finished-at="2019-07-03T11:07:31Z">
+        <test-method status="FAIL" signature="Logintest22()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest22" duration-ms="1276" started-at="2019-07-06T12:07:54Z" finished-at="2019-07-06T12:07:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -95,9 +95,9 @@ at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -112,7 +112,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>

@@ -22,12 +22,15 @@ public LoginPage(){
 public void Login() {
 	username.sendKeys("Balagopal");
 	passw.sendKeys("Test@123");
+	driver.close();
 }
 
 public void Login2() {
 	username.sendKeys("Balagopal");
 	passw.sendKeys("Test@123");
 	assertTrue(false);
+	driver.close();
+
 }
 	
 }
