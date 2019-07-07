@@ -8,8 +8,6 @@ public class Test11 {
         final String dir = System.getProperty("user.dir");
         System.out.println("current dir = " + dir);
         System.out.println("Test");
-        
-        System.out.println("Bala_lenov_seleniumbala");
 	}
 
 }
