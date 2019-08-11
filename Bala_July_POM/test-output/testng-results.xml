@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="66617" started-at="2019-07-06T12:06:50Z" finished-at="2019-07-06T12:07:57Z">
+  <suite name="Suite" duration-ms="88143" started-at="2019-08-11T15:50:45Z" finished-at="2019-08-11T15:52:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="66617" started-at="2019-07-06T12:06:50Z" finished-at="2019-07-06T12:07:57Z">
+    <test name="Test" duration-ms="88143" started-at="2019-08-11T15:50:45Z" finished-at="2019-08-11T15:52:14Z">
       <class name="com.qa.TestLayer.TestLayer1">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="16557" started-at="2019-07-06T12:06:50Z" finished-at="2019-07-06T12:07:07Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="29099" started-at="2019-08-11T15:50:45Z" finished-at="2019-08-11T15:51:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest" duration-ms="344" started-at="2019-07-06T12:07:07Z" finished-at="2019-07-06T12:07:07Z">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest" duration-ms="6844" started-at="2019-08-11T15:51:15Z" finished-at="2019-08-11T15:51:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="13919" started-at="2019-07-06T12:07:07Z" finished-at="2019-07-06T12:07:21Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="14462" started-at="2019-08-11T15:51:21Z" finished-at="2019-08-11T15:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest2" duration-ms="1173" started-at="2019-07-06T12:07:21Z" finished-at="2019-07-06T12:07:22Z">
+        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest2" duration-ms="965" started-at="2019-08-11T15:51:36Z" finished-at="2019-08-11T15:51:37Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -30,7 +30,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at com.qa.Pagelayer.LoginPage.Login2(LoginPage.java:30)
+at com.qa.Pagelayer.LoginPage.Login2(LoginPage.java:31)
 at com.qa.TestLayer.TestLayer1.Logintest2(TestLayer1.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -65,19 +65,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Logintest2 -->
       </class> <!-- com.qa.TestLayer.TestLayer1 -->
       <class name="com.qa.TestLayer.TestLayer2">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="14415" started-at="2019-07-06T12:07:24Z" finished-at="2019-07-06T12:07:38Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="14629" started-at="2019-08-11T15:51:39Z" finished-at="2019-08-11T15:51:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="Logintest12()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest12" duration-ms="643" started-at="2019-07-06T12:07:38Z" finished-at="2019-07-06T12:07:39Z">
+        <test-method status="PASS" signature="Logintest12()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest12" duration-ms="1571" started-at="2019-08-11T15:51:54Z" finished-at="2019-08-11T15:51:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest12 -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="15405" started-at="2019-07-06T12:07:39Z" finished-at="2019-07-06T12:07:54Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="17106" started-at="2019-08-11T15:51:55Z" finished-at="2019-08-11T15:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="Logintest22()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest22" duration-ms="1276" started-at="2019-07-06T12:07:54Z" finished-at="2019-07-06T12:07:56Z">
+        <test-method status="FAIL" signature="Logintest22()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest22" duration-ms="489" started-at="2019-08-11T15:52:12Z" finished-at="2019-08-11T15:52:13Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -88,7 +88,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at com.qa.Pagelayer.LoginPage.Login2(LoginPage.java:30)
+at com.qa.Pagelayer.LoginPage.Login2(LoginPage.java:31)
 at com.qa.TestLayer.TestLayer2.Logintest22(TestLayer2.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
