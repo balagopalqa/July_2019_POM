@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="88143" started-at="2019-08-11T15:50:45Z" finished-at="2019-08-11T15:52:14Z">
+  <suite name="Suite" duration-ms="67858" started-at="2019-09-01T13:33:46Z" finished-at="2019-09-01T13:34:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="88143" started-at="2019-08-11T15:50:45Z" finished-at="2019-08-11T15:52:14Z">
+    <test name="Test" duration-ms="67858" started-at="2019-09-01T13:33:46Z" finished-at="2019-09-01T13:34:54Z">
       <class name="com.qa.TestLayer.TestLayer1">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="29099" started-at="2019-08-11T15:50:45Z" finished-at="2019-08-11T15:51:15Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="21040" started-at="2019-09-01T13:33:46Z" finished-at="2019-09-01T13:34:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest" duration-ms="6844" started-at="2019-08-11T15:51:15Z" finished-at="2019-08-11T15:51:21Z">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest" duration-ms="1119" started-at="2019-09-01T13:34:07Z" finished-at="2019-09-01T13:34:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="14462" started-at="2019-08-11T15:51:21Z" finished-at="2019-08-11T15:51:36Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="initialization" is-config="true" duration-ms="10888" started-at="2019-09-01T13:34:08Z" finished-at="2019-09-01T13:34:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest2" duration-ms="965" started-at="2019-08-11T15:51:36Z" finished-at="2019-08-11T15:51:37Z">
+        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.TestLayer.TestLayer1@c81cdd1]" name="Logintest2" duration-ms="951" started-at="2019-09-01T13:34:19Z" finished-at="2019-09-01T13:34:20Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -65,19 +65,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Logintest2 -->
       </class> <!-- com.qa.TestLayer.TestLayer1 -->
       <class name="com.qa.TestLayer.TestLayer2">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="14629" started-at="2019-08-11T15:51:39Z" finished-at="2019-08-11T15:51:54Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="14996" started-at="2019-09-01T13:34:22Z" finished-at="2019-09-01T13:34:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="Logintest12()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest12" duration-ms="1571" started-at="2019-08-11T15:51:54Z" finished-at="2019-08-11T15:51:55Z">
+        <test-method status="PASS" signature="Logintest12()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest12" duration-ms="1605" started-at="2019-09-01T13:34:37Z" finished-at="2019-09-01T13:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest12 -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="17106" started-at="2019-08-11T15:51:55Z" finished-at="2019-08-11T15:52:12Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="initialization" is-config="true" duration-ms="12043" started-at="2019-09-01T13:34:39Z" finished-at="2019-09-01T13:34:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="Logintest22()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest22" duration-ms="489" started-at="2019-08-11T15:52:12Z" finished-at="2019-08-11T15:52:13Z">
+        <test-method status="FAIL" signature="Logintest22()[pri:0, instance:com.qa.TestLayer.TestLayer2@1fc2b765]" name="Logintest22" duration-ms="1065" started-at="2019-09-01T13:34:51Z" finished-at="2019-09-01T13:34:52Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
